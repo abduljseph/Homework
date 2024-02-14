@@ -41,7 +41,7 @@ greetCustomer();
 
   const order = getPizzaOrder("large", "thin", "Pepperoni", "Onions");
   const cookedPizza = preparePizza(order);
-  const servePizza = servePizza(cookedPizza);
+  const servedPizza = servePizza(cookedPizza);
 
   console.log("Final pizza object: ", servePizza);
 
