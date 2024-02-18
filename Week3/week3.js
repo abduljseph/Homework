@@ -32,16 +32,15 @@ function preparePizza([size, crust, toppings]) {
 
 function servePizza(pizza) {
   let orderString = "Order up! Here's your" + pizza.size + " " + pizza.crust;
-  orderString += " pizza with" + pizza.toppings.join(" , ") +". Enjoy";
+  orderString += " pizza with" + pizza.toppings.join(" , ") + ". Enjoy";
   console.log(orderString);
   return pizza;
 }
 
 greetCustomer();
 
-  const order = getPizzaOrder("large", "thin", "Pepperoni", "Onions");
-  const cookedPizza = preparePizza(order);
-  const servedPizza = servePizza(cookedPizza);
+const order = getPizzaOrder("large", "thin", "Pepperoni", "Onions");
+const cookedPizza = preparePizza(order);
+const servedPizza = servePizza(cookedPizza);
 
-  console.log("Final pizza object: ", servePizza);
-
+console.log("Final pizza object: ", servedPizza);
