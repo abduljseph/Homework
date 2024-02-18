@@ -6,3 +6,47 @@ body {
   background-color: antiquewhite;
   color: red;
 }
+
+nav {
+
+  background-color: #beb2b9;
+
+ padding: 1rem;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+     padding: 0;
+
+    margin: 0;
+
+      display: flex;
+
+   justify-content: space-around;
+
+  }
+
+  footer {
+    list-style-type: none;
+
+     padding: 0;
+
+
+
+    margin: 0;
+
+      display: flex;
+
+   justify-content: space-around;
+
+  }
+
+  #bio {
+display: flex;
+    padding: 20px;
+    margin: 10px auto;
+    width: 80;
+  }
