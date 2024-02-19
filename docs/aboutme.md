@@ -1,4 +1,4 @@
-John Smith: Bridging Service, Tech, and Business
+Abdul Joseph: Bridging Service, Tech, and Business
 Army Veteran | Texas State Alumnus | Full Stack Developer
 Greetings! I’m John Smith, a passionate individual with a diverse background. Here’s a glimpse into my journey:
 
